@@ -37,7 +37,7 @@
 
 **1. Клонируйте репозиторий:**
 ```bash
-git clone https://github.com/[ТВОЙ_НИКНЕЙМ]/[НАЗВАНИЕ_РЕПОЗИТОРИЯ].git
+git clone https://github.com/arturA34/HabitTrackerBot.git
 cd [НАЗВАНИЕ_РЕПОЗИТОРИЯ]
 ```
 
