@@ -3,7 +3,7 @@ from handlers import user_handlers, other_handlers
 from config import Config, load_conf
 import asyncio
 import asyncpg
-from HabitTrackerBot.handlers.database import create_table
+from handlers.database import create_table
 from handlers.user_handlers import remind_habit
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from handlers.keyboards import first_time, second_time, third_time

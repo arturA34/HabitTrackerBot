@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  bot:
+    build: .                    # собираем образ из Dockerfile
+    env_file:
+      - .env                    # подключаем .env
+    restart: unless-stopped     # автоматический перезапуск
